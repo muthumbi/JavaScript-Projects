@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+  background: url(http://res.cloudinary.com/jkx/image/upload/v1454408616/background-texture-1014963_1280_qg16so.jpg);
+}
+
+.well {
+  background: rgba(255, 255, 255, 0.5);
+  padding-bottom: 40px;
+}
+
+.well p {
+  font-size: 21px;
+}
+
+h1 {
+  font-weight: 700;
+  padding: 50px;
+}
+
+.author-text {
+  font-weight: 700;
+}
+
+header,
+footer {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: rgba(22, 105, 173, 0.3);
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+}
+
+header {
+  top: 0px;
+}
+
+footer {
+  bottom: 0px;
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+footer a {
+  color: #000 !important;
+}
+
+button:hover {
+  box-shadow: 0px 5px 1px rgb(22, 105, 173);
+}
